@@ -44,10 +44,10 @@ export default function Home() {
               <h4 className={`${style.textMuted}`}>Powered by</h4>
               <div className="mt-3">
                 <span className="me-3">
-                  <Image src={BSestarMF} />
+                  <Image alt="BSestarMF" src={BSestarMF} />
                 </span>
                 <span>
-                  <Image src={iciciLogo} />
+                  <Image alt="iciciLogo" src={iciciLogo} />
                 </span>
               </div>
             </Col>

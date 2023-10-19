@@ -1,45 +1,12 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "../style/veriables.scss";
 // @import '../style/scss/theme.scss';
-
 @font-face {
-  font-family: myFont;
+  font-family: myFont !important;
   src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: myFont;
-  src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: myFont;
-  src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: myFont;
-  src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-  font-weight: small;
-  font-style: normal;
-}
-@font-face {
-  font-family: myFont;
-  src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-  font-weight: small;
-  font-style: italic;
 }
 :root {
-  font-family: myFont;  
-  @font-face {
-    font-family: myFont;
-    src: url("../../public/fonts/InvestifydFonts/ARLRDBD.woff");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Courier New', Courier, monospace !important;  
 }
 
 * {
@@ -78,7 +45,4 @@ a {
   background-color: #2a344e !important;
   border-color: #2a344e !important;
   box-shadow: none !important;
-}
-
-.heading2 {
 }

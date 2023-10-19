@@ -74,10 +74,10 @@ const page = () => {
           <h2 className={`${style.main_heading}`}>We Have Partnered With</h2>
           <div className="mt-3">
             <span className="me-3">
-              <Image src={BSestarMF} />
+              <Image alt="BSestarMF" src={BSestarMF} />
             </span>
             <span>
-              <Image src={iciciLogo} />
+              <Image alt="iciciLogo" src={iciciLogo} />
             </span>
           </div>
         </div>
