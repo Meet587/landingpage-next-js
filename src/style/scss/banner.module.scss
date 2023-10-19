@@ -1,0 +1,103 @@
+.newFundWrap {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.link_wrap {
+    padding: 0px 20px;
+    border: 1.5px solid rgb(235, 235, 235);
+    transition: box-shadow 0.25s ease-in-out 0s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.link_wrap:hover {
+    box-shadow: #0000007a -5px 3px 40px -27px;
+}
+.link_sub_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+.fund_info {
+    position: relative;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+.fund_wrap_9 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.invest_wrap {
+    text-align: right;
+    margin-top: -8px;
+}
+.fund_wrap_10 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.fund_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.fund_wrap_11 {
+    margin-left: 20px;
+    text-align: right;
+}
+.fund_info_wrap {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.fund_info_detail_wrap {
+    padding: 0px;
+    .titel {
+        color: rgb(166, 170, 181);
+        font-size: 12px;
+    }
+    .value {
+        color: rgb(20, 27, 47);
+        font-size: 14px;
+        margin: 5px 0px 0px;
+    }
+}
+.fund_name_wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    .fund_name {
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+    }
+    .fund_cat_wrap {
+        // margin-top: 5px;
+        font-size: 1.1em;
+        color: rgb(155, 155, 155);
+        display: flex;
+        .category_separator {
+            font-size: 10px;
+            margin: 5px 5px 0 5px;
+        }
+        .fund_cat_sub_wrap {
+            -webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            span {
+                font-size: 10px;
+                // margin: 0px 6px 0px 0px;
+                // padding: 1px 5px;
+                border-radius: 4px;
+                color: rgb(134, 136, 143);
+                // border: 1px solid rgb(232, 232, 232);
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+// Scrollbar Styling
