@@ -57,6 +57,7 @@ export default function Home() {
                 alt="investifyd"
                 width={500}
                 height={`auto`}
+                priority={false}
               />
             </Col>
           </Row>

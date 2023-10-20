@@ -1,0 +1,218 @@
+.blog_box {
+  background-color: #fff;
+  border: 1px solid #ecedef;
+  transition: transform 0.3s;
+  border-radius: 8px;
+  cursor: pointer;
+  // max-width: 580px;
+  margin: 0.5rem;
+}
+.blog_img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  //  height: 200px;
+  object-fit: cover;
+
+  filter: grayscale(1);
+}
+.blog_img:hover {
+  filter: grayscale(0);
+}
+.blog_logo_wrap {
+  margin: 10px 0 0 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.blog_category {
+  margin: 10px 10px 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  top: 0;
+  right: 0;
+  position: absolute;
+
+  span {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #ecedef;
+    font-size: 12px;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    color: black;
+  }
+}
+.blog_content_wrap {
+  padding: 15px 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #44475b;
+  font-weight: 500;
+  //min-height: 140px;
+}
+.desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.blog_title {
+  font-weight: 500;
+  color: #44475b;
+  //text-align: center;
+  font-size: 1.5rem;
+}
+.line_height {
+  // line-height: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.blog_descr_wrap {
+  //border-top: 1px solid #ecedef;
+  // justify-content: center;
+  align-items: center;
+  // margin-top: 10px;
+  padding: 10px 0;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  color: #7c7e8c;
+}
+.valign_wrapper {
+  display: flex;
+  align-items: center;
+}
+.blog_box:hover {
+  transform: scale(1.05);
+}
+
+.arrow:hover {
+  -webkit-animation: fade-right 1.5s linear infinite;
+  animation: fade-right 1.5s linear infinite;
+}
+
+// blog details page css
+
+.blog_detail_main_wrap {
+  .title_wrap {
+    width: 100%;
+    .title {
+      font-size: 1.75rem;
+      letter-spacing: 0.01em;
+      line-height: 160%;
+      font-weight: 500;
+      width: 710px;
+      margin: 0 0 20px;
+    }
+  }
+  .date_time_wrap {
+    display: flex;
+    align-items: center;
+    color: #7c7e8c;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    font-size: 0.975rem;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-weight: 600;
+  }
+  .blog_img {
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  .shear_wrap {
+    padding-top: 15px;
+    border-top: 1px solid #ecedef;
+  }
+  .content_wrap {
+    span {
+      line-height: 26px;
+      text-align: justify;
+      font-size: 16px;
+      font-weight: 500;
+      color: #323232;
+    }
+  }
+}
+.blog_detail_descr_wrap {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  max-width: none;
+  margin-bottom: 4rem;
+  text-align: justify;
+
+  color: #3d4156;
+}
+.blog_descr_point {
+  list-style: disc;
+  margin-top: 20px;
+  li {
+    margin-bottom: 1.25em;
+  }
+}
+.flex_wrap {
+  display: flex;
+  align-items: center;
+}
+.mr {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.admin_img {
+  border-radius: 9999px;
+  // width: 2rem;
+  // height: 2rem;
+  border: 1px solid #80808040;
+}
+.list_container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.vertical_border_list {
+  list-style: none;
+  padding: 0;
+}
+
+.list_item {
+  border-left: 3px solid #dddddd;
+  padding: 10px 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+// .list_item:last-child {
+//   border-right: none;
+// }
+
+.active {
+  border-color: #3bdc91; /* Change the border color for the active item */
+  font-weight: bold; /* Apply other styles as needed */
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .hide_wrap {
+    display: none;
+  }
+}
